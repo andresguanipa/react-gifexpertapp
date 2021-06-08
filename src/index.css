@@ -15,7 +15,7 @@ body{
 }
 
 .container{
-  padding: 1% 5% 1% 5%;
+  padding: 1% 5% 5% 5%;
 }
 
 input{
@@ -58,6 +58,8 @@ h2, h3, input{
 
 footer{
   background-image: linear-gradient(90deg, #c9c2ff 0, #919cff 25%, #3c78f2 50%, #0059e3 75%, #0041d4 100%);  flex: 1;
+  bottom: 0;  
+  position: fixed;
   padding: 0.1%;
   width: 100%;
 }

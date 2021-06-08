@@ -4,7 +4,7 @@ import { GifGrid } from './components/GifGrid';
 
 export const GifExpertApp = () => {
 
-    const [categories,setCategories] = useState(['Goku']); // useState devuelve una constante con el valor asignado.
+    const [categories,setCategories] = useState(['']); // useState devuelve una constante con el valor asignado.
                                                                                             // setCategories nor sirve para actulizar ese valor asignado.
     return(
         <>
